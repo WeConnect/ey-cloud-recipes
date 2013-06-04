@@ -4,7 +4,8 @@
 #  }
 #end
 
-require_recipe "cron_set"
+#require_recipe "cron_set"
+require_recipe "cron_remove"
 
 # uncomment to turn on thinking sphinx/ultra sphinx. Remember to edit cookbooks/sphinx/recipes/default.rb first!
 # require_recipe "sphinx"
